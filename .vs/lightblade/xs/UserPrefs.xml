@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{670E61B0-B77A-12BB-9F5B-7F9B0230EA0C}|">
+  <MonoDevelop.Ide.ItemProperties.lightblade PreferredExecutionTarget="55ba4c1e-36e1-48f0-98d7-88f5cc0bc543" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/xScripts/cubeScript.cs">
+    <Files>
+      <File FileName="Assets/xScripts/SpawnObject.cs" Line="33" Column="13" />
+      <File FileName="Assets/xScripts/cubeScript.cs" Line="26" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lightblade" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="xScripts" expanded="True">
+                <Node name="cubeScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
