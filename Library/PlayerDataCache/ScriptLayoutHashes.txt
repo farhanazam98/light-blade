@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/farhanazam/lightblade/beatSaber.apk
+/Users/farhanazam/Desktop/lightblade/light-blade.apk
 SceneListBegin?
 Assets/xScenes/lightblade.unity
 SceneListEnd?
@@ -212,7 +212,7 @@ c8b0b0ab2b453407c6e648d99b3f754f Assembly-CSharp.dll:.MoviePlayerSample
 9a93f748b7c6fda90f20cf8d995df907 Oculus.VR.dll:.OVRModeParms
 7da42ff76b471a89ac72bc31d7c7ad6d Oculus.VR.dll:.OVRGearVrControllerTest
 2231bab7f484c70f599dcd437a53e964 Assembly-CSharp.dll:OVRTouchSample.TouchController
-f0d203233eacf40f9189363ba3b63122 Assembly-CSharp.dll:.cubeScript
+3afdc4f4b3c5c6b2429a61532dbfbef7 Assembly-CSharp.dll:.cubeScript
 b9b529c158df375b46045bce67f3f1cd Assembly-CSharp.dll:.GuardianBoundaryDisplay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TeleportOrientationHandler360
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HandedInputSelector

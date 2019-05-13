@@ -6,7 +6,8 @@ public class cubeScript : MonoBehaviour {
 
 	public float speed = 1.0f;
 	public Vector3 target;
-
+    public AudioSource aSource;
+    public AudioClip aClip;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,6 +18,7 @@ public class cubeScript : MonoBehaviour {
 		
 		float step =  speed * Time.deltaTime;
 		transform.position = Vector3.MoveTowards(transform.position, target, step);
+        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
 
 		if (Vector3.Distance(transform.position, target) < 0.001f)
 		{
@@ -29,8 +31,8 @@ public class cubeScript : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("lightblade"))
         {
+            aSource.PlayOneShot(aClip);
             Destroy(gameObject);
-
         }
     }
 }
