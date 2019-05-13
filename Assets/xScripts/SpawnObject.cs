@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnObject : MonoBehaviour {
 
-	public GameObject cubePrefab;
+    public GameObject cubePrefab;
 
 	public Vector3 center;
 	public Vector3 size;
@@ -32,13 +32,15 @@ public class SpawnObject : MonoBehaviour {
 	{
 		Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x/2), Random.Range(-size.y / 2, size.y/2), 
 			Random.Range(-size.z / 2, size.z/2));
-		Instantiate (cubePrefab, pos, Quaternion.identity);
-	}
+        GameObject cube = Instantiate(cubePrefab, pos, Quaternion.identity);
+        cube.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), 1);
+
+    }
 		
 	void onDrawGizmosSelected()
 	{
-		Gizmos.color = new Color (1, 0, 0);
-		Gizmos.DrawCube (center, size);
+        Gizmos.color = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1), 1);
+        Gizmos.DrawCube(center, size);
 	}
 
 }
