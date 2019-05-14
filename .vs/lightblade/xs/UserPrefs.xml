@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{670E61B0-B77A-12BB-9F5B-7F9B0230EA0C}|">
-  <MonoDevelop.Ide.ItemProperties.lightblade PreferredExecutionTarget="9d48f0d9-dab3-4ada-ad35-cf1f1539663b" />
+  <MonoDevelop.Ide.ItemProperties.lightblade PreferredExecutionTarget="56a56de2-cc60-415f-b0c2-d46072eb2a07" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/xScripts/cubeScript.cs">
     <Files>
       <File FileName="Assets/xScripts/SpawnObject.cs" Line="36" Column="149" />

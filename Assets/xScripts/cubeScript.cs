@@ -8,9 +8,12 @@ public class cubeScript : MonoBehaviour {
 	public Vector3 target;
     public AudioSource aSource;
     public AudioClip aClip;
+    private Renderer rend;
+    private float startTime;
+    private bool hit;
 	// Use this for initialization
 	void Start () {
-		
+        hit = false;
 	}
 	
 	// Update is called once per frame
@@ -25,6 +28,11 @@ public class cubeScript : MonoBehaviour {
             // remove object
             Destroy(gameObject);
 		}
+        if(Time.time > startTime + 3.0f && hit)
+        {
+            Destroy(gameObject);
+        }
+
 	}
 
     void OnTriggerEnter(Collider other)
@@ -32,7 +40,10 @@ public class cubeScript : MonoBehaviour {
         if (other.gameObject.CompareTag("lightblade"))
         {
             aSource.PlayOneShot(aClip);
-            Destroy(gameObject);
+            rend = gameObject.GetComponent<Renderer>();
+            rend.enabled = false;
+            startTime = Time.time;
+            hit = true;
         }
     }
 }
